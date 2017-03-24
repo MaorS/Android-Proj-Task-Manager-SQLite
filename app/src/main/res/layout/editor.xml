@@ -1,0 +1,17 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:focusable="true"
+    android:focusableInTouchMode="true"
+    android:orientation="horizontal">
+
+    <EditText
+        android:id="@+id/edit_task"
+        android:layout_width="0dp"
+        android:layout_height="40dp"
+        android:layout_weight="5"
+        android:paddingLeft="10dp"
+        android:hint="@string/add_new_task"
+        android:inputType="textCapSentences"
+        android:background="@drawable/rounded_con"/>
+</LinearLayout>

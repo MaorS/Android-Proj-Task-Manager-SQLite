@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="50sp"
+    android:orientation="horizontal">
+
+    <TextView
+        android:layout_width="15sp"
+        android:layout_height="match_parent"
+        android:id="@+id/task_num"
+        android:layout_weight="1"
+        android:textSize="18sp"
+        android:gravity="center"
+        android:textAlignment="center"
+        android:textStyle="normal|bold"
+        android:text="1"/>
+    <TextView
+        android:layout_width="120sp"
+        android:layout_height="match_parent"
+        android:id="@+id/task_txt"
+        android:textSize="20sp"
+        android:gravity="center_vertical"
+        android:paddingStart="10sp"
+        android:paddingEnd="0sp"
+        android:layout_weight="9"
+        android:text="task"
+        />
+    <ImageView
+        android:layout_width="15sp"
+        android:layout_height="match_parent"
+        android:id="@+id/task_done"
+        android:layout_weight="1"
+        android:src="@android:drawable/checkbox_on_background"
+        android:visibility="invisible"
+        />
+</LinearLayout>

@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Task Manager</string>
+    <string name="welcome_user">welcome</string>
+    <string name="log_out">Log out</string>
+    <string name="add_new_task">Add new task</string>
+    <string name="no_tasks">No new tasks</string>
+    <string name="delete_all">Delete All Tasks</string>
+    <string name="are_you_sure_delete_all_tasks">\tTasks not Completed yet .\nAre you sure you want to delete all tasks?</string>
+    <string name="delete_tasks">Delete Tasks</string>
+    <string name="edit_task">Edit Your Task</string>
+    <string name="save">Save</string>
+    <string name="delete">Delete</string>
+    <string name="cancel">Cancel</string>
+</resources>

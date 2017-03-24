@@ -1,0 +1,46 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+
+        android:icon="@drawable/ic_sort_white_24dp"
+        android:title="Open menu"
+        app:showAsAction="always">
+        <menu>
+            <item
+                android:icon="@android:drawable/ic_menu_today"
+                android:title="All Tasks"
+                app:showAsAction="always"
+                android:id="@+id/menu_AllTasks"/>
+            <item
+
+                android:icon="@android:drawable/checkbox_on_background"
+                android:title="Done Tasks"
+                app:showAsAction="always"
+                android:id="@+id/menu_DoneTasks"/>
+
+            <item
+                android:icon="@android:drawable/checkbox_off_background"
+                android:title="Open Tasks"
+                app:showAsAction="always"
+                android:id="@+id/menu_OpenTasks"/>
+            <item
+                android:icon="@android:drawable/ic_menu_day"
+                android:title="New to old Tasks"
+                app:showAsAction="always"
+                android:id="@+id/menu_newestTasks"/>
+            <item
+                android:icon="@android:drawable/ic_menu_month"
+                android:title="Old to new Tasks"
+                app:showAsAction="always"
+                android:id="@+id/menu_oldestTasks"/>
+
+        </menu>
+    </item>
+    <item
+        android:id="@+id/menu_delete"
+        android:icon="@android:drawable/ic_menu_delete"
+        android:title="Delete"
+        app:showAsAction="always">
+    </item>
+
+</menu>
